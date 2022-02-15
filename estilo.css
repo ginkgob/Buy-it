@@ -1,0 +1,12 @@
+.header {
+    padding: 30px;
+    background: #03143d;
+    color: #516C8D;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
