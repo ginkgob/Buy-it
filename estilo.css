@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contacto {
+    padding: 1rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+    text-align: center;
+}
+
+.names {
+    color: white;
+}
+
+.about {
+    width: fit-content;
+    height: 35vh;
+    font-size: large;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(47, 104, 170);
+}
+
+#leftbox {
+    width: 50vw;
+    height: 25vh;
+}
+
+.text {
+    padding: 0.2rem
+}
+
+#rightbox {
+    width: 50vw;
+    height: 25vh;
+}
+
+#bottombox {
+    grid-column: 1/3;
+    text-align: center;
+    font-size: small;
+}
