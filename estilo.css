@@ -40,7 +40,7 @@
 .bio {
     padding: 0.5rem;
     max-width: 300px;
-    max height: 300px;
+    max-height: 300px;
     border: 200px;
     border-radius: 50px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
@@ -48,7 +48,7 @@
 
 .nier {
     max-width: 265px;
-    max height: 300px;
+    max-height: 300px;
     border: 200px;
     border-radius: 50px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
@@ -56,7 +56,7 @@
 
 .zelda {
     max-width: 300px;
-    max height: 300px;
+    max-height: 300px;
     border: 200px;
     border-radius: 50px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
@@ -64,7 +64,7 @@
 
 .dish {
     max-width: 300px;
-    max height: 300px;
+    max-height: 300px;
     border: 200px;
     border-radius: 50px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
