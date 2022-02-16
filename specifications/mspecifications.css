@@ -1,0 +1,86 @@
+/*-----ALL-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----HEADER-----*/
+
+.header {
+    padding: 20px;
+    background-color: #2f68aa;
+    color: white;
+    font-size: 10px;
+}
+
+.logo {
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+/*-----BODY-----*/
+
+
+
+/*-----FOOTER-----*/
+
+.contacto {
+    padding: 1rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+    text-align: center;
+}
+
+#rrss {
+    padding: 1.5rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.logorrss {
+    justify-self: center;
+}
+
+.names {
+    color: white;
+}
+
+.about {
+    height: 40vh;
+    font-size: large;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(47, 104, 170);
+}
+
+.text {
+    padding: 0.2rem
+}
+
+#upperbox {
+    width: 50vw;
+    height: 30vh;
+    font-size: 3vh;
+}
+
+#aboutus {
+    font-weight: bolder;
+}
+
+#bottombox {
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 2vh;
+}

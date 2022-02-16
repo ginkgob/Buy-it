@@ -1,8 +1,12 @@
+/*-----ALL-----*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*-----HEADER-----*/
 
 .header {
     padding: 20px;
@@ -22,6 +26,8 @@
     flex-direction: row-reverse;
     align-items: flex-end;
 }
+
+/*-----BODY-----*/
 
 #body {
     padding: 2rem;
@@ -47,6 +53,9 @@
     font-family: 'Bebas Neue', cursive;
     font-size:xx-large;
 }
+
+/*-----FOOTER-----*/
+
 .contacto {
     padding: 1rem;
     background-color: black;

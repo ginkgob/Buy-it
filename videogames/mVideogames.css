@@ -1,8 +1,12 @@
+/*-----ALL-----*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*-----HEADER-----*/
 
 .header {
     padding: 5px;
@@ -54,6 +58,8 @@
     padding: 5px;
 }
 
+/*-----BODY-----*/
+
 #body {
     padding: 2rem;
 }
@@ -70,12 +76,17 @@
 
 .img {
     margin: 0.5rem;
-    width: 169px;
-    height: 225px;
-    object-fit: cover;
+    width: 330px;
+    height: 400px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 17px;
 }
+
+.gm {
+    font-size: large;
+}
+
+/*-----FOOTER-----*/
 
 .contacto {
     padding: 1rem;
@@ -96,8 +107,9 @@
     justify-self: center;
 }
 
-.names {
+.namecontacto {
     color: white;
+    font-size: large;
 }
 
 .about {
