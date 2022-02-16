@@ -112,16 +112,9 @@ li{
 }
 
 .img {
-<<<<<<< Updated upstream
-    margin: 0.5rem;
-    width: 169px;
-    height: 225px;
-    object-fit: cover;
-=======
     margin: 1rem;
     width: 45vw;
     height: 55vw;
->>>>>>> Stashed changes
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 17px;
 }
