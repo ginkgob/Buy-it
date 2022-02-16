@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .header {
 <<<<<<< HEAD
     padding: 30px;
@@ -29,57 +30,58 @@
     align-items: flex-end;
 }
 
+=======
+>>>>>>> Stashed changes
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.header {
+    padding: 20px;
+    background-color: #2f68aa;
+    color: white;
+    font-size: 10px;
+}
+
+#videogames {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.box {
+    margin: 1rem;
+}
+
+.img {
+    margin: 0.5rem;
+    width: 169px;
+    height: 225px;
+    object-fit: cover;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 17px;
+}
+
+.name {
+    color: rgba(0, 0, 0, 0.75)
+}
+
+.logo {
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
 #body {
     padding: 2rem;
-}
-
-.lista1 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.lista2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.bio {
-    padding: 0.5rem;
-    max-width: 300px;
-    max-height: 300px;
-    border: 200px;
-    border-radius: 50px;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.nier {
-    max-width: 265px;
-    max-height: 300px;
-    border: 200px;
-    border-radius: 50px;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.zelda {
-    max-width: 300px;
-    max-height: 300px;
-    border: 200px;
-    border-radius: 50px;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.dish {
-    max-width: 300px;
-    max-height: 300px;
-    border: 200px;
-    border-radius: 50px;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .contacto {
