@@ -14,27 +14,35 @@
     height: 80px;
     line-height: 80px;
     display: grid;
-    grid-template-columns: 5% 75% 15% 5%;
+    grid-template-columns: 15% 30% 30%;
+    white-space: nowrap;
+}
 
+.logoparent {
+    width: 15vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .logo {
     float: left;
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
     padding: auto;
 }
 
 .title {
-    font-size: xx-large;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5vh;
 }
 
 .cart {
     margin: 15px;
 
 }
-
-
 
 #text {
     height: 350px;
@@ -59,8 +67,6 @@ nav {
     overflow: hidden;
 }
 
-
-
 /*-----BODY-----*/
 
 .background {
@@ -74,13 +80,13 @@ nav {
     padding: 2rem;
 }
 
-#covers{
+#covers {
     display: grid;
     grid-template-rows: 32% 32% 32%;
     margin: 2rem;
     
 }
-.img{
+.img {
     width: 100%;
     height: auto;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
@@ -89,13 +95,14 @@ nav {
     padding: 0.2rem;
 }
 
-.name{
+.name {
     font-family: 'Bebas Neue';
-    font-style:normal;
-    align-content:flex-end;
-    font-size:200%;
+    font-style: normal;
+    text-align: center;
+    font-size: 200%;
     font-weight: 500px;
 }
+
 /*-----FOOTER-----*/
 
 .contacto {
@@ -123,7 +130,6 @@ nav {
 
 .about {
     height: 40vh;
-    font-size: large;
     padding: 1rem;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -137,7 +143,7 @@ nav {
 #upperbox {
     width: 50vw;
     height: 30vh;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 #aboutus {
