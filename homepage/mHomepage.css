@@ -36,20 +36,21 @@
 
 #covers{
     display: grid;
-    text-align: center;
     grid-template-rows: 32% 32% 32%;
     margin: 2rem;
+    
 }
 .img{
-    margin: 0.8rem;
     width: 100%;
     height: auto;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 17px;
     object-fit:contain;
+    padding: 0.2rem;
 }
 
 .name{
+    text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size:xx-large;
 }
