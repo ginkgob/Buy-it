@@ -1,20 +1,13 @@
-<<<<<<< Updated upstream
-.header {
-<<<<<<< HEAD
-    padding: 30px;
-    background: #03143d;
-    color: #516C8D;
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.logo {
-    height: 80px;
-    width: 80px;
-=======
+.header {
     padding: 20px;
-    background: #2f68aa;
-    color: white;F
+    background-color: #2f68aa;
+    color: white;
     font-size: 10px;
 }
 
@@ -30,19 +23,8 @@
     align-items: flex-end;
 }
 
-=======
->>>>>>> Stashed changes
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header {
-    padding: 20px;
-    background-color: #2f68aa;
-    color: white;
-    font-size: 10px;
+#body {
+    padding: 2rem;
 }
 
 #videogames {
@@ -66,22 +48,6 @@
 
 .name {
     color: rgba(0, 0, 0, 0.75)
-}
-
-.logo {
-    float: left;
-    height: 15px;
-    width: 15px;
-}
-
-.menu {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-}
-
-#body {
-    padding: 2rem;
 }
 
 .contacto {
@@ -134,5 +100,4 @@
     grid-column: 1/3;
     text-align: center;
     font-size: 2vh;
->>>>>>> aa5c91365f6b1cee42a604905271c345b4ed1e44
 }
