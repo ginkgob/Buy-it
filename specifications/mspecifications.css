@@ -50,8 +50,8 @@
 }
 
 #bimg {
-    width: 40vw;
-    height: 47vh;
+    width: 45vw;
+    height: 55vw;;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
     margin-top: 1%;
