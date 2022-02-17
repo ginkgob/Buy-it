@@ -94,12 +94,12 @@
 
 #bodysection {
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     margin: 5px;
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: 45% 45%;
-    grid-gap: 5px;
+    grid-gap: 10px;
     justify-content: center;
 }
 
@@ -154,6 +154,8 @@
     height: 5vh;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 17px;
+    position: relative;
+    top: 100px;
 }
 
 #buybutton {
@@ -164,6 +166,8 @@
     height: 25vh;
     /*background: rgba(0, 0, 0, 0.5);*/
     border-radius: 17px;
+    position: relative;
+    top: 100px;
 }
 
 #buttonbox {
