@@ -104,7 +104,6 @@
 }
 
 #bioimg {
-
     margin-top: 5%;
     width: 40vw;
     height: 55vw;
@@ -113,7 +112,6 @@
 }
 
 #bimg {
-
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
     margin-top: 1%;
@@ -185,7 +183,11 @@
 }
 
 .rating {
+    display: flex;
+    justify-content: center;
     width: 180px;
+    margin: 10px;
+
 }
 
 .rating__star {

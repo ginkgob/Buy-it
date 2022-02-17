@@ -11,11 +11,12 @@ function scrollFunction() {
     }
 }
 
-
 function topFunction() {
   document.body.scrollTop = 0; // Safari
   document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
 } 
+
+
 
 const ratingStars = [...document.getElementsByClassName("rating__star")];
 
@@ -24,7 +25,7 @@ function executeRating(stars) {
   const starClassInactive = "rating__star far fa-star";
   const starsLength = stars.length;
   let i;
- 
+
   stars.map((star) => {
     star.onclick = () => {
       i = stars.indexOf(star);
