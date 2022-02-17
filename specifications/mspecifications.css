@@ -114,10 +114,8 @@
 #bimg {
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
-    margin-top: 1%;
-    width: 43vw;
-    height: 55vw;
-    margin-left: -5%;
+    width: 45vw;
+    height: 25.5vh;
 }
 
 #bioinfo {
@@ -207,7 +205,7 @@
     padding: 1rem;
     background-color: black;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 30% 30%;
     text-align: center;
 }
 

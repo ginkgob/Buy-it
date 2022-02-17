@@ -66,7 +66,7 @@
     overflow: hidden;
 }
 
-/*-----BODY-----*/
+/*-----MAIN-----*/
 
 .background {
     background: url(https://github.com/ginkgob/Buy-it/blob/main/img/front%20cover.jpg?raw=true)no-repeat;
@@ -116,7 +116,7 @@
     padding: 1rem;
     background-color: black;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 30% 30%;
     text-align: center;
 }
 
