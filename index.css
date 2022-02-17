@@ -33,14 +33,17 @@
 }
 
 .title {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 1.5vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.8vh;
+    font-family: 'Bebas Neue', cursive;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .cart {
     margin: 15px;
+    justify-content: end;
 
 }
 

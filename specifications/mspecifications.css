@@ -41,10 +41,12 @@
 }
 
 #bioimg {
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    margin-top: 5%;
+    width: 40vw;
+    height: 55vw;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 17px;
 }
 
 #bimg {
@@ -52,6 +54,9 @@
     height: 47vh;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
+    margin-top: 1%;
+    width: 43vw;
+    height: 55vw;
 }
 
 #bioinfo {
