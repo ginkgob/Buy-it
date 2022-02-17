@@ -1,6 +1,6 @@
 # El nido virtual 
 
-El nido virtual es un proyecto creado por alumnos de Factoria f5. La idea del proyecto ha residido en la creación de una landing page en un grupo de cinco personas.
+El nido virtual es un proyecto creado por alumnos de Factoria f5. La idea del proyecto ha residido en la creación de una web de tres pajinas en un grupo de cinco personas.
 
 # Creadores
 El nido virtual ha sido creado gracias a:
