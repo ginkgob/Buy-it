@@ -1,7 +1,6 @@
-//Get the button:
 mybutton = document.getElementById("topbtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -12,8 +11,30 @@ function scrollFunction() {
     }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0; // Safari
+  document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
 } 
+
+const ratingStars = [...document.getElementsByClassName("rating__star")];
+
+function executeRating(stars) {
+  const starClassActive = "rating__star fas fa-star";
+  const starClassInactive = "rating__star far fa-star";
+  const starsLength = stars.length;
+  let i;
+ 
+  stars.map((star) => {
+    star.onclick = () => {
+      i = stars.indexOf(star);
+
+      if (star.className===starClassInactive) {
+        for (i; i >= 0; --i) stars[i].className = starClassActive;
+      } else {
+        for (i; i < starsLength; ++i) stars[i].className = starClassInactive;
+      }
+    };
+  });
+}
+executeRating(ratingStars);
