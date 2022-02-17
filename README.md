@@ -11,12 +11,10 @@ javier
 Sergi Aparicio
 Àlex Vidal
 
-#Construido con:
+# Construido con:
 Para el desarrollo de esta web ha sido necesario:
 
 HTML
 CSS
 JavaScript
 figma
-
-
