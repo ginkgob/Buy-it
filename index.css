@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/*-----HEADER-----*/
+
 .header {
     padding: 5px;
     background-color: #2f68aa;
@@ -64,26 +66,20 @@
     overflow: hidden;
 }
 
-#bgcolor {
-    background-color: rgb(255, 221, 25);
-    border-radius: 15px;
-    margin: 10px;
-    padding: 5px;
-    overflow: hidden;
-}
-
-nav {
-    background-color: #2f68aa;
-    height: 40px;
-    overflow: hidden;
-}
-
 /*-----BODY-----*/
 
 .background {
     background: url(https://github.com/ginkgob/Buy-it/blob/main/img/front%20cover.jpg?raw=true)no-repeat;
     background-size: cover;
     height: 350px;
+    overflow: hidden;
+}
+
+#bgcolor {
+    background-color: rgb(255, 221, 25);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
     overflow: hidden;
 }
 
