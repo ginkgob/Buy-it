@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*-----HEADER-----*/
@@ -122,15 +123,13 @@
 }
 
 #bioinfo {
-
-    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 19px;
     margin-top: 6%;
-    width: 47vw;
+    width: 45vw;
     height: 56vw;
 }
 
@@ -147,17 +146,42 @@
     font-size: small;
     text-align: justify;
     text-justify: inter-word;
-
-
 }
 
 #price {
+    color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 20vh;
-    background-color: purple;
-    grid-column: 1/3;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 17px;
+}
+
+#buybutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    border-radius: 17px;
+}
+
+#buttonbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    font-size: large;
+    color: white;
+    background: #FB610A;
+    border-radius: 12px;
+    font-weight: bolder;
 }
 
 .video {
@@ -206,7 +230,7 @@
 #upperbox {
     width: 50vw;
     height: 30vh;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 #aboutus {
