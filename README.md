@@ -18,4 +18,5 @@ Para el desarrollo de esta web ha sido necesario:
 - CSS
 - JavaScript
 - figma
-
+# agradecimientos
+A Factoria F5 y a nuestros compañeros de promoción 🧡
