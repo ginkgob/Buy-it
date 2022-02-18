@@ -1,5 +1,6 @@
-mybutton = document.getElementById("topbtn");
+/*-----TOP BUTTON-----*/
 
+mybutton = document.getElementById("topbtn");
 
 window.onscroll = function() {scrollFunction()};
 
@@ -16,7 +17,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
 } 
 
-
+/*-----STAR RATING-----*/
 
 const ratingStars = [...document.getElementsByClassName("rating__star")];
 
