@@ -149,6 +149,7 @@
 }
 
 #upperbox {
+    color: white;
     width: 50vw;
     height: 30vh;
     font-size: 2vh;
@@ -159,6 +160,7 @@
 }
 
 #bottombox {
+    color: white;
     grid-column: 1/3;
     text-align: center;
     font-size: 1vh;
